@@ -102,7 +102,7 @@ public class App {
 		} catch (ParseException exp) {
 			HelpFormatter formatter = new HelpFormatter();
 			System.err.println(exp.getMessage());
-			formatter.printHelp("java -jar Squery.jar [options] file1.sql file2.sql...", options);
+			formatter.printHelp("java -jar JCLIery.jar [options] file1.sql file2.sql...", options);
 			System.exit(1);
 		}
 
