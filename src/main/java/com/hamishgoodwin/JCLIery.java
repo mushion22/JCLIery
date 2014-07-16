@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 /**
  * Runs queries specified on the command line against a database and prints the results. 
  */
-public class App {
+public class JCLIery {
 
 	private static final Logger log = Logger.getLogger(App.class.getName());
 
