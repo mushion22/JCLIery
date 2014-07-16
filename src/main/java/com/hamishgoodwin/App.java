@@ -1,4 +1,4 @@
-package com.hamishgoodwin;
+package com.hamishgoodwin.jcliery;
 
 import org.apache.commons.cli.*;
 import org.apache.commons.io.FileUtils;
