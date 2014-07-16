@@ -16,6 +16,8 @@ Put the JDBC driver library for your database on the classpath. This means eithe
                                                                 ALL   Commit after all statements executed
                                                                 IDV   Commit after each statment is executed
     -u,--username <Username>  Optional    Username for the database
-
+### Todo
+* Add ability to pipe/read commands from the CLI, eg cat cmd.sql | java -jar JCLIery.jar
+* Add ability to have multiple commands within one file
 
 
