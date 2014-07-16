@@ -25,6 +25,9 @@
         <module name="Squery" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Squery" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

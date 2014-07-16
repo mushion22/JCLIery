@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  */
 public class JCLIery {
 
-	private static final Logger log = Logger.getLogger(App.class.getName());
+	private static final Logger log = Logger.getLogger(JCLIery.class.getName());
 
 	/**
  	  * Whether to print the column names before printing each result row 
@@ -56,11 +56,11 @@ public class JCLIery {
 	 */ 
 	private String password;
 
-	public App() {
+	public JCLIery() {
 	}
 
 	public static void main(String[] args) {
-		new App().doMain(args);
+		new JCLIery().doMain(args);
 	}
 
 	public void doMain(String[] args) {
