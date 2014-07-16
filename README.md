@@ -12,7 +12,7 @@ Put the JDBC driver library for your database on the classpath. This means eithe
     -d,--dburl <URL>          Mandatory   JDBC URL for the database. Eg jdbc:mysql://HOST:3306/DATABASE
     -q,--quiet                Optional    Turns off logging output, only outputting results.
     -p.--password <Password>  Optional    Password for the database
-    -t,--tx <TYPE>            Optional    Transaction setting:  NONE  (default): no transactions used
+    -t,--tx <TYPE>            Optional    Transaction setting:  NONE  (default) no transactions used
                                                                 ALL   Commit after all statements executed
                                                                 IDV   Commit after each statment is executed
     -u,--username <Username>  Optional    Username for the database
