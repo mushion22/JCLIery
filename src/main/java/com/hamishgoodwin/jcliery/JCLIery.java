@@ -142,11 +142,15 @@ public class JCLIery {
 
 		} catch (ParseException exp) {
 			HelpFormatter formatter = new HelpFormatter();
-			
+			String jarPath = new java.io.File(JCLIery.class.getProtectionDomain()
+					.getCodeSource()
+					.getLocation()
+					.getPath())
+					.getName();
 			System.err.println(exp.getMessage());
 			
 			//print our usage help text
-			formatter.printHelp("java -jar JCLIery.jar [options] file1.sql file2.sql...", options);
+			formatter.printHelp("java -jar "+ jarPath +" [options] file1.sql file2.sql...", options);
 		
 			System.exit(1);
 		}

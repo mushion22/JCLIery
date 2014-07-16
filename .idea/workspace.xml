@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be16c37-3abb-4ac1-8b82-6f36e976ae6d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assembly/zip.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_180.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hamishgoodwin/jcliery/JCLIery.java" afterPath="$PROJECT_DIR$/src/main/java/com/hamishgoodwin/jcliery/JCLIery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Squery.iml" afterPath="$PROJECT_DIR$/Squery.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Squery.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/App.java" changelist="7be16c37-3abb-4ac1-8b82-6f36e976ae6d" time="1405431066923" ignored="false" />
-    <file path="/fragment.java" changelist="7be16c37-3abb-4ac1-8b82-6f36e976ae6d" time="1405509000702" ignored="false" />
+    <file path="/fragment.java" changelist="7be16c37-3abb-4ac1-8b82-6f36e976ae6d" time="1405509780567" ignored="false" />
     <file path="/Dummy.txt" changelist="7be16c37-3abb-4ac1-8b82-6f36e976ae6d" time="1405507866884" ignored="false" />
     <file path="/zip.xml" changelist="7be16c37-3abb-4ac1-8b82-6f36e976ae6d" time="1405508476153" ignored="false" />
-    <file path="/pom.xml" changelist="7be16c37-3abb-4ac1-8b82-6f36e976ae6d" time="1405509141590" ignored="false" />
+    <file path="/pom.xml" changelist="7be16c37-3abb-4ac1-8b82-6f36e976ae6d" time="1405509846345" ignored="false" />
     <file path="/README.md" changelist="7be16c37-3abb-4ac1-8b82-6f36e976ae6d" time="1405509231658" ignored="false" />
     <file path="/.gitignore" changelist="7be16c37-3abb-4ac1-8b82-6f36e976ae6d" time="1405509463548" ignored="false" />
+    <file path="/JCLIery.java" changelist="7be16c37-3abb-4ac1-8b82-6f36e976ae6d" time="1405509760144" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,19 +75,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="19" selection-start="2354" selection-end="2354" vertical-scroll-proportion="0.0">
+            <state line="119" column="24" selection-start="4134" selection-end="4134" vertical-scroll-proportion="0.5606695">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="8" selection-start="96" selection-end="96" vertical-scroll-proportion="0.31380752">
+            <state line="10" column="8" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,7 +117,7 @@
       <file leaf-file-name="JCLIery.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hamishgoodwin/jcliery/JCLIery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="41" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0">
+            <state line="152" column="54" selection-start="3941" selection-end="3941" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,11 +151,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/hamishgoodwin/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hamishgoodwin/jcliery/JCLIery.java" />
         <option value="$PROJECT_DIR$/assembly/zip.xml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hamishgoodwin/jcliery/JCLIery.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -340,7 +333,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.hamishgoodwin.jcliery.JCLIery" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="-d jdbc:mysql://54.253.137.216/ -u root -p yourface -q -c /tmp/sql.sql" />
+      <option name="PROGRAM_PARAMETERS" value="-b jdbc:mysql://54.253.137.216/ -u root -p yourface -q -c /tmp/sql.sql" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -618,13 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hamishgoodwin/jcliery/JCLIery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="41" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="99" selection-start="562" selection-end="562" vertical-scroll-proportion="-2.7777777">
@@ -633,6 +619,20 @@
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="8" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hamishgoodwin/jcliery/JCLIery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="54" selection-start="3941" selection-end="3941" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assembly/zip.xml">
@@ -644,14 +644,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="19" selection-start="2354" selection-end="2354" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="96" selection-end="96" vertical-scroll-proportion="0.31380752">
+        <state line="119" column="24" selection-start="4134" selection-end="4134" vertical-scroll-proportion="0.5606695">
           <folding />
         </state>
       </provider>
