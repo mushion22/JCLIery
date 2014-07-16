@@ -5,7 +5,7 @@ JCLIery is a simple Java utility to execute SQL commands using JDBC connections 
 
 Put the JDBC driver library for your database on the classpath. This means either alongside the jar executable, or use JVM arguments to specify an additional classpath. 
 ### Usage
-    java [-classpath /path/to/jdbcdriver.jar]-jar JCLiery.jar [options] file1.sql file2.sql ... fileN.sql
+    java [-classpath /path/to/jdbcdriver.jar] -jar JCLiery.jar [options] file1.sql file2.sql ... fileN.sql
     
     options:
     -c,--nocolumns            Optional    Flag to turn off the printing of column names in the output of results
