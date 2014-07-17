@@ -7,6 +7,8 @@ Put the JDBC driver library for your database on the classpath. This means eithe
 
 Currently only supports having one SQL statement per file. Doesn't support comments etc in the file. 
 
+A single connection/session is used to execute all the queries. See the options below to set options for commiting transactions. 
+
 ### Usage
 Download a .zip with the app code and libraries from the `dist` folder  (https://github.com/mushion22/JCLIery/raw/master/dist/JCLIery-0.1-dist.zip). 
 
