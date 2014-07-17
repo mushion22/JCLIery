@@ -24,5 +24,6 @@ Download a .zip with the app code and libraries from the `dist` folder  (https:/
 ### Todo
 * Add ability to pipe/read commands from the CLI, eg `cat cmd.sql | java -jar JCLIery.jar`
 * Add ability to have multiple commands within one file
+* Add ability to have comments in file
 
 
