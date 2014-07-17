@@ -12,6 +12,8 @@ Download a .zip with the app code and libraries from the `dist` folder  (https:/
 
 Add the JDBC driver library for your database to the classpath. This means either copy it to the lib folder, or use JVM arguments to specify an additional classpath.
 
+Execute the jar as described below:
+
     java [-classpath /path/to/jdbcdriver.jar] -jar JCLiery.jar [options] file1.sql file2.sql ... fileN.sql
     
     options:
