@@ -4,7 +4,10 @@ JCLIery
 JCLIery is a simple Java utility to execute SQL commands using JDBC connections to a database. It reads in individual commands/queries stored in 1 or more files and executes them individually, writing the results to the console. The results will either be a CSV formatted list of records if a result set is returned (eg from a SELECT query), or a count of rows affected in the case no results are returned (eg an UPDATE or DDL command)
 
 Put the JDBC driver library for your database on the classpath. This means either in the lib folder, or use JVM arguments to specify an additional classpath.
+
 ### Usage
+Download a .zip with the app code and libraries from the `dist` folder  (https://github.com/mushion22/JCLIery/raw/master/dist/JCLIery-0.1-dist.zip). 
+
     java [-classpath /path/to/jdbcdriver.jar] -jar JCLiery.jar [options] file1.sql file2.sql ... fileN.sql
     
     options:
