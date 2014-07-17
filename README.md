@@ -14,7 +14,7 @@ Add the JDBC driver library for your database to the classpath. This means eithe
 
 Execute the jar as described below:
 
-    java [-classpath /path/to/jdbcdriver.jar] -jar JCLiery.jar [options] file1.sql file2.sql ... fileN.sql
+    java [-classpath /path/to/jdbcdriver.jar] -jar JCLiery-<version>.jar [options] file1.sql file2.sql ... fileN.sql
     
     options:
     -c,--nocolumns            Optional    Flag to turn off the printing of column names in the output of results
@@ -25,6 +25,13 @@ Execute the jar as described below:
                                                                 ALL   Commit after all statements executed
                                                                 IDV   Commit after each statment is executed
     -u,--username <Username>  Optional    Username for the database
+For example
+
+    java -jar JCLIery-0.1.jar -d jdbc:mysql://mysqldb.company.com:3306/mydb -u root -p P@ssw0rd! -t ALL
+
+You might also need to add memory flags if your queries return many results, eg
+
+    java -Xmx1024m -jar JCLIery-0.1.jar -d jdbc:mysql://mysqldb.company.com:3306/mydb -u root -p P@ssw0rd! -t ALL
 ### Todo
 * Add ability to pipe/read commands from the CLI, eg `cat cmd.sql | java -jar JCLIery.jar`
 * Add ability to have multiple commands within one file
