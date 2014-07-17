@@ -36,5 +36,6 @@ You might also need to add memory flags if your queries return many results, eg
 * Add ability to pipe/read commands from the CLI, eg `cat cmd.sql | java -jar JCLIery.jar`
 * Add ability to have multiple commands within one file
 * Add ability to have comments in file
+* Leave password flag argument blank to prompt from STDIN
 
 
