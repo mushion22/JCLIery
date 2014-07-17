@@ -14,7 +14,7 @@ Add the JDBC driver library for your database to the classpath. This means eithe
 
 Execute the jar as described below:
 
-    java [-classpath /path/to/jdbcdriver.jar] -jar JCLiery-<version>.jar [options] file1.sql file2.sql ... fileN.sql
+    java [JVM Args] [-classpath /path/to/jdbcdriver.jar] -jar JCLiery-<version>.jar [options] file1.sql file2.sql ... fileN.sql
     
     options:
     -c,--nocolumns            Optional    Flag to turn off the printing of column names in the output of results
